@@ -39,7 +39,7 @@ pipeline  {
     }
     
     post {
-        always { echo "Compilação finalizada com Sucesso Ainda Bem"}
+        always { echo "Compilação finalizada com Sucesso"}
         success { echo "Sucesso"}
         failure { echo "Falha Grave TELA AZUL !!!"}
     }
